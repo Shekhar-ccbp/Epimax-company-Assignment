@@ -1,0 +1,82 @@
+.task-summary {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.task-summary h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.task-summary p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.task-summary button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #008cba;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-summary button:hover {
+  background-color: #007bb5;
+}
+
+.task-summary {
+  padding: 20px;
+  margin: 40px auto;
+  width: 50%;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-summary h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.task-summary p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #666;
+}
+
+.task-summary button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.task-summary button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.count {
+  font-weight: bolder;
+  font-size: 22px;
+}
